@@ -31,7 +31,7 @@ public class Application extends SpringBootServletInitializer {
             String port = environment.getProperty("local.server.port");
 
             System.out.println();
-            System.out.println("Server started - http://localhost:" + port + "/swagger-ui.html");
+            System.out.println("Server started at - http://localhost:" + port + "/swagger-ui.html");
         };
     }
 
